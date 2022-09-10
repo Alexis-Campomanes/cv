@@ -1,0 +1,23 @@
+.card{
+  padding: 5rem 0;
+  position: relative;
+}
+.c-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid var(--red);
+    border-style:dashed;
+    width: 250px;
+    height: 200px;
+    border-top-right-radius: 25%;
+    position: absolute;
+    >:nth-child(1){
+        font-size: 35pt;
+        font-weight: bold;
+    }
+    >:nth-child(2){
+        font-size: 20pt;
+    }
+}

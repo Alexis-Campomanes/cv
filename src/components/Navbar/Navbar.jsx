@@ -1,12 +1,12 @@
 import React from 'react';
 import './Navbar.scss';
-import Logo from '../../img/pngegg-(1).png';
+import Logo from '../../img/2751071.png';
 
 const Navbar = () => {
   return (
     <div className='navbar'>
       <div className='n-logo'>
-        <img src={Logo} alt="Logo" style={{transform:'scale(0.45'}}/>
+        <img src={Logo} alt="Logo"/>
       </div>
       <div className="n-list">
         <ul>
@@ -16,7 +16,7 @@ const Navbar = () => {
           <li>Blog</li>
           <li>Contact us</li>
         </ul>
-        <button>Download CV</button>
+        <button className='button'>Download CV</button>
       </div>
     </div>
   )

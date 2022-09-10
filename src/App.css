@@ -3,13 +3,11 @@
   --red: #b71d32;
   --hover: #461527;
   --text : #d9d9d9;
+  --exp : #241E3A;
 }
 
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  padding: 0.5rem 3.5rem;
+  padding: 0.5rem 5rem;
   overflow: hidden;
 }
+

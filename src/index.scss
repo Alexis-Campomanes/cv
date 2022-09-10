@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  background-color: #151124;
+  color: white;
+}
+.body::-webkit-scrollbar{
+  display: none;
+}
+.button{
+  padding: 1.1rem 1rem ;
+  border: none;
+  background-color: var(--red);
+  color: white;
+  border-radius: 8px ;
+  font-weight: bold;
+  &:hover{
+    cursor: pointer;
+    background-color: var(--hover);
+    color: var(---text);
+
+  }
+}
