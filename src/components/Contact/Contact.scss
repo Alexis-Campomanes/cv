@@ -1,0 +1,26 @@
+.contact{
+  display: flex;
+.c-left{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 7rem;
+    gap: 5rem;
+    flex: 1;
+    >:nth-child(1){
+      font-size: 48pt;
+      font-weight: bold;
+    }
+    .c-callme{
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+  }
+.c-right{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+} 

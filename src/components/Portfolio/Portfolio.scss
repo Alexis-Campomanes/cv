@@ -1,0 +1,35 @@
+.portfolio{
+  display: flex;
+  flex-direction: column;
+  margin-top: 7rem;
+  >:nth-child(1){
+    font-size: 48pt;
+    font-weight: bold;
+    padding-bottom: 5rem;
+  }
+  .p-img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    .p-conteiner{
+      width: 390px;
+      height: 450px;
+      overflow: hidden;
+      >img{
+        width: 720px;
+        height: 500px;
+      }
+    }
+  }
+  .p-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .button-s{
+    margin-top: 3rem;
+    padding: 1rem 3rem;
+    font-size: 15pt;
+    font-weight: 400;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+.call{
+  display: flex;
+  gap: 1.5rem;
+  .c-conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--red);
+    border-radius: 100%;
+    padding: 0.8rem;
+    transform: scale(0.8);
+  }
+  .call-text{
+    display: flex;
+    flex-direction: column;
+    >:nth-child(1){
+      color: var(--text);
+      opacity: 0.5;
+    }
+    >:nth-child(2){
+      font-size: 14pt;
+    }
+  }
+}
