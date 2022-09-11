@@ -77,6 +77,10 @@ textarea{
       }
     }
     .c-right{
+      >form{
+        align-items: center;
+        justify-content: center;
+      }
       .user{
         width: 17rem;
       }
