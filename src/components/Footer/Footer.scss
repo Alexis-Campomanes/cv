@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--exp);
+    margin-top: 7rem;
+    flex-direction: column;
+    padding: 7rem 0 1rem 0;
+    .icons{
+        padding-bottom: 3rem;
+        transform: scale(2);
+        display: flex;
+        gap: 0.5rem;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+    hr{
+        width: 100%;
+        opacity: 0.5;
+    }
+    span{
+        opacity: 0.5;
+    }
+}

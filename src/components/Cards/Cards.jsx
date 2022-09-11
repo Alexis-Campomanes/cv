@@ -17,9 +17,8 @@ const Cards = ({text1, text2, icons}) => {
         padding: '0.5rem',
         display: 'flex',
         aligContent:'center',
-        justifyContent:'center',
         left :'4rem',
-        top: '-1rem'
+        top: '-6rem'
       }}>
         <img src={icons} alt="" />
       </div>

@@ -1,10 +1,11 @@
 .contact{
   display: flex;
+  margin-top: 7rem;
+  padding: 0.5rem 5rem;
 .c-left{
     display: flex;
     justify-content: flex-start;
-    flex-direction: column;
-    margin-top: 7rem;
+    flex-direction: column; 
     gap: 5rem;
     flex: 1;
     >:nth-child(1){
@@ -19,8 +20,49 @@
   }
 .c-right{
   display: flex;
+  align-items: flex-start;
+  justify-content: center;
   flex-direction: column;
-  flex: 3;
-}
+  flex: 1;
+  .data{
+    display: flex;
+    gap: 2rem;
+  }
+  .phone{
+    display: flex;
+    gap: 2rem;
+  }
+  .button-s{
+    padding: 1rem 3rem;
+    font-size: 15pt;
+    font-weight: 400;
 
+  }
+}
+.c-right>form{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 2rem;
+}
+.c-right .user{
+  width: 15rem;
+  height: 3rem;
+  background-color: transparent;
+  border: 2px solid gray;
+  border-radius: 5px;
+  outline: none;
+  &::placeholder{
+    padding-left: 1rem;
+    color: gray;
+    font-family: 'Poppins'
+  }
+  &:focus{
+    color: var(---text);
+  }
+}
+textarea{
+  height: 6rem !important;
+  width: 32.5rem !important;
+}
 } 
