@@ -6,10 +6,9 @@ const Work = () => {
   return (
     <div className='work'>
       <span>My Experiences</span>
-      <span>My experience in a timeline</span>
-        <div>
+      <span>My experience in a timeline</span>    
           <img src={Works} alt="" />
-        </div>
+
     </div>
   )
 }

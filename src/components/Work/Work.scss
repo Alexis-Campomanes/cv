@@ -20,21 +20,12 @@
   .work{
     padding: 0.5rem 1rem;
     align-items: flex-start;
-    height: 40vh;
     gap: 0;
-    padding-top: 14rem;
     :nth-child(1){
       font-size: 30pt;
-      padding-top: 5rem;
     }
     img{
-      transform: scale(0.4);
-      display: flex;
-      justify-content: flex-start;
-      align-items: flex-start;
-      position: relative;
-      left: -17.5rem;
-      top: -10rem;
+      display: none;
     }
   }
 }
