@@ -7,7 +7,9 @@ const Work = () => {
     <div className='work'>
       <span>My Experiences</span>
       <span>My experience in a timeline</span>
-      <img src={Works} alt="" />
+        <div>
+          <img src={Works} alt="" />
+        </div>
     </div>
   )
 }

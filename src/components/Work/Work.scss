@@ -20,10 +20,12 @@
   .work{
     padding: 0.5rem 1rem;
     align-items: flex-start;
-    height: 80vh;
+    height: 40vh;
+    gap: 0;
+    padding-top: 14rem;
     :nth-child(1){
       font-size: 30pt;
-      padding-top: 17rem;
+      padding-top: 5rem;
     }
     img{
       transform: scale(0.3);
