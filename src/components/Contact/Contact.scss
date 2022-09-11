@@ -76,5 +76,20 @@ textarea{
         font-size: 30pt;
       }
     }
+    .c-right{
+      .user{
+        width: 17rem;
+      }
+      .data{
+        flex-direction: column;
+        padding-top: 4rem;
+      }
+      .phone{
+        flex-direction: column;
+      }
+    }
+    textarea{
+      width: 17rem !important;
+    }
   }
 }
