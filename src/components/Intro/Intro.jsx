@@ -12,7 +12,7 @@ const Intro = () => {
         <span>Welcome! I Am</span>
         <span>Alexis Campomanes</span>
         <span>Frontend developer and Bachelor's degree of geographic engineering</span>
-        <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero aperiam nesciunt ex quidem eveniet porro cum quia commodi deserunt tenetur nisi molestiae quisquam minus, esse similique sapiente necessitatibus fuga? Consequatur?</span>
+        <span>Lorem, ipsum dolor deserunt tenetur nisi molestiae quisquam minus, esse similique sapiente necessitatibus fuga? Consequatur?</span>
       </div>
       <div className="right">
         <div>

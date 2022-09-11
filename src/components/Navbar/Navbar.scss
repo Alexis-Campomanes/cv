@@ -35,3 +35,24 @@
     }
   }
 }
+
+@media screen and (max-width: 480px) {
+  .navbar{
+    padding: 0.5rem 1rem;
+    .n-logo{
+      flex: 1;
+      >img{
+        transform: scale(0.6);
+      }
+    }
+    .n-list{
+      flex: 1;
+      .button{
+        padding: 0.8rem 1rem;
+      }
+    }
+    .n-list>ul{
+      display: none;
+    }
+  }
+}

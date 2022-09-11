@@ -22,3 +22,16 @@
     }
   }
 }
+
+@media screen and (max-width:480px) {
+.call{
+  .call-text{
+    >:nth-child(1){
+      font-size: 15pt;
+    }
+    >:nth-child(2){
+      font-size: 9pt;
+    }
+  }
+}
+}

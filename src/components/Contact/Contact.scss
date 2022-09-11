@@ -36,7 +36,7 @@
     padding: 1rem 3rem;
     font-size: 15pt;
     font-weight: 400;
-
+    margin-top: 2rem;
   }
 }
 .c-right>form{
@@ -66,3 +66,15 @@ textarea{
   width: 32.5rem !important;
 }
 } 
+
+@media screen and (max-width:480px) {
+  .contact{
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    .c-left{
+      :nth-child(1){
+        font-size: 30pt;
+      }
+    }
+  }
+}

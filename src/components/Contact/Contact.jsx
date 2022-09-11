@@ -14,7 +14,7 @@ const Contact = () => {
           <div className='c-callme'>
             <CallMe text='Call Me' text1='+51 964206125' img={call}/>
             <CallMe text= 'Email' text1='alexiscpp.developer@gmail.com' img={email} />
-            <CallMe text = 'Address' text1= 'Cesar Vallejo dpt 802 Lima-Ate' img={map} />
+            <CallMe text = 'Address' text1= 'Av. Cesar Vallejo #207 dpt 802 Lima-Lince' img={map} />
           </div>
         </div>
         <div className='c-right'>
