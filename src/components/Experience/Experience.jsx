@@ -1,19 +1,26 @@
 import React from 'react';
 import './Experience.scss';
-import Trofeo from '../../img/trophy.png';
-import Users from '../../img/users.png';
-import Cards from '../Cards/Cards';
-import Constructor from '../../img/constructor.png';
-import File from '../../img/file.png'
+import { UilGithub } from '@iconscout/react-unicons';
+
 
 
 const Experience = () => {
   return (
     <div className='experience'>
-      <Cards text1='02' text2='Awards' icons={Trofeo}/>
-      <Cards text1='50+' text2='Clients' icons={Users} />
-      <Cards text1='03' text2='Years Experience' icons={Constructor} />
-      <Cards text1='80+' text2='Projects' icons={File} />
+      <span>Skills</span>
+      <div className="e-icons">
+      <img src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/html5-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/javascript-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/typescript-original.svg?size=128&color=ffffff" alt="" />
+      <img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/nodejs-original.svg?size=128&color=ffffff" alt="" />
+      <img src="https://icongr.am/devicon/sass-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/less-plain-wordmark.svg?size=128&color=ffffff" alt="" />
+      <UilGithub size='128px'/>
+      <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" alt="" />
+      </div>
+      
     </div>
   )
 }
