@@ -4,7 +4,7 @@ import Works from '../../img/11.png';
 
 const Work = () => {
   return (
-    <div className='work'>
+    <div className='work' id='Experience'>
       <span>My Experiences</span>
       <span>My experience in a timeline</span>    
           <img src={Works} alt="" />

@@ -3,12 +3,11 @@ import './Portfolio.scss';
 import img1 from '../../img/Screenshot_1.jpg';
 import img2 from '../../img/Screenshot_45.jpg';
 import img3 from '../../img/Screenshot_5.jpg';
-import img4 from '../../img/Screenshot_7.jpg';
-import img5 from '../../img/Screenshot_2.jpg'
+import img5 from '../../img/Screenshot_2.jpg';
 
 const Portfolio = () => {
   return (
-    <div className='portfolio'>
+    <div className='portfolio' id='Portfolio'>
       <span>Portfolio</span>
       <div className='p-img'>
       <div className='p-conteiner'>

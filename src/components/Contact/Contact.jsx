@@ -8,7 +8,7 @@ import map from '../../img/map.png'
 const Contact = () => {
   return (
     
-      <div className='contact'>
+      <div className='contact' id='Contact'>
         <div className='c-left'>
           <span>Contact Us</span>
           <div className='c-callme'>

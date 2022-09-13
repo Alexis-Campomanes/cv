@@ -9,3 +9,12 @@
     }
     
 }
+
+@media screen and (max-width:480px) {
+    .view{
+        padding: 0.5rem 1rem;
+        >:nth-child(1){
+            font-size: 30pt;
+        }
+    }
+}

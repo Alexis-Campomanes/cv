@@ -1,4 +1,4 @@
-.experience{
+.Skill{
   margin-top: 7rem;
   background-color: var(--exp);
   padding: 3rem 5rem;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width:480px) {
-  .experience{
+  .Skill{
     padding: 0.5rem 1rem;
     >:nth-child(1){
       font-size: 30pt;

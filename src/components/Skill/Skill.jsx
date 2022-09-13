@@ -1,12 +1,12 @@
 import React from 'react';
-import './Experience.scss';
+import './Skill.scss';
 import { UilGithub } from '@iconscout/react-unicons';
 
 
 
-const Experience = () => {
+const Skill = () => {
   return (
-    <div className='experience'>
+    <div className='Skill' id='Skills'>
       <span>Skills</span>
       <div className="e-icons">
       <img src="https://icongr.am/devicon/css3-original.svg?size=128&color=currentColor" alt="" />
@@ -25,4 +25,4 @@ const Experience = () => {
   )
 }
 
-export default Experience
+export default Skill
