@@ -5,16 +5,16 @@ import { Link } from 'react-scroll';
 
 const Navbar = () => {
   return (
-    <div className='navbar' id='Navbar'>
+    <div className='navbar' >
       <div className='n-logo'>
         <img src={Logo} alt="Logo"/>
       </div>
       <div className="n-list">
         <ul>
-        <Link spy={true} to={'Navbar'} smooth={true} activeClass={'activeClass'}>
+        <Link spy={true} to={'intro'} smooth={true} activeClass={'activeClass'}>
           <li>Home</li>
         </Link>
-        <Link spy={true} to={'Skills'} smoth={true}>
+        <Link spy={true} to={'Skills'} smooth={true}>
           <li>Skills</li>
         </Link>
         <Link spy={true} to={'Portfolio'} smooth={true}>

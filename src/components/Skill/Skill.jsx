@@ -15,10 +15,11 @@ const Skill = () => {
       <img src="https://icongr.am/devicon/typescript-original.svg?size=128&color=ffffff" alt="" />
       <img src="https://icongr.am/devicon/react-original.svg?size=128&color=currentColor" alt="" />
       <img src="https://icongr.am/devicon/nodejs-original.svg?size=128&color=ffffff" alt="" />
+      <img src="https://icongr.am/devicon/bootstrap-plain.svg?size=128&color=ffffff" alt=""/>
       <img src="https://icongr.am/devicon/sass-original.svg?size=128&color=currentColor" alt="" />
-      <img src="https://icongr.am/devicon/less-plain-wordmark.svg?size=128&color=ffffff" alt="" />
       <UilGithub size='128px'/>
       <img src="https://icongr.am/devicon/git-original.svg?size=128&color=currentColor" alt="" />
+      <img src="https://icongr.am/devicon/gitlab-original.svg?size=128&color=ffffff" alt="" />
       </div>
       
     </div>

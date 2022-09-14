@@ -7,7 +7,7 @@ import { UilTwitter } from '@iconscout/react-unicons'
 
 const Intro = () => {
   return (
-    <div className='intro'>
+    <div className='intro' id='intro'>
       <div className="left">
         <span>Welcome! I Am</span>
         <span>Alexis Campomanes</span>
