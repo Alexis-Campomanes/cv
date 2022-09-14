@@ -4,6 +4,7 @@ import img1 from '../../img/Screenshot_1.jpg';
 import img2 from '../../img/Screenshot_45.jpg';
 import img3 from '../../img/Screenshot_5.jpg';
 import img5 from '../../img/Screenshot_2.jpg';
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   return (
@@ -24,7 +25,9 @@ const Portfolio = () => {
       </div>     
       </div>
       <div className='p-button'>
-        <button className='button button-s'>View All</button>
+        <Link to='view'>
+          <button className='button button-s'>View All</button>
+        </Link>
       </div>
     </div>
   )

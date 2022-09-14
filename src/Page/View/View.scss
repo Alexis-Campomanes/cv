@@ -3,18 +3,39 @@
     flex-direction: column;
     gap: 2rem;
     padding: 0.5rem 5rem;
+    .v-text{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     >:nth-child(1){
         font-size: 48pt;
         font-weight: bold;
+        }
+        .button-v{
+            padding: 1rem 3rem;
+            &:hover{
+                color: white;
+            }
+        }
     }
-    
+    .v-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 3rem;
+    }
 }
 
 @media screen and (max-width:480px) {
     .view{
         padding: 0.5rem 1rem;
-        >:nth-child(1){
-            font-size: 30pt;
+        .v-text{
+            flex-direction: column;
+            gap: 2rem;
+            >:nth-child(1){
+                font-size: 20pt;
+            }    
         }
     }
 }
