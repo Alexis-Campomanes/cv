@@ -37,7 +37,7 @@
       flex-direction: column;
       gap: 3rem;
       position: relative;
-      top: -7.8rem;
+      top: -7.2rem;
       span{
         transform: rotate(90deg);
         text-transform: uppercase; 
@@ -49,11 +49,13 @@
         width: 60px;
         border-color: var(--red);
         margin-top: 3rem;
+        margin-bottom: 2rem;
       }
       .icons{
         display: flex;
         flex-direction: column;
         gap: 1rem;
+        transform: scale(1.2);
         &:hover{
           cursor: pointer;
         }

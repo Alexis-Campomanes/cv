@@ -27,7 +27,7 @@ const Navbar = () => {
         <li>Contact us</li>
         </Link>
         </ul>
-        <button className='button'>Download CV</button>
+          <a href='./CvDownload.pdf' download className='button'>Download CV</a>
       </div>
     </div>
   )
