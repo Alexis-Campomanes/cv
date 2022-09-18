@@ -6,6 +6,7 @@ import { UilLinkedin } from '@iconscout/react-unicons';
 import { UilTwitter } from '@iconscout/react-unicons'
 
 const Intro = () => {
+  
   return (
     <div className='intro' id='intro'>
       <div className="left">
