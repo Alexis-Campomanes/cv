@@ -31,10 +31,12 @@
     .view{
         padding: 0.5rem 1rem;
         .v-text{
-            flex-direction: column;
             gap: 2rem;
             >:nth-child(1){
                 font-size: 20pt;
+            }
+            .button-v{
+                padding: 1.1rem 1rem ;
             }    
         }
     }

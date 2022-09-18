@@ -15,7 +15,7 @@ const View = () => {
       <div className="v-text">
         <span>Personal project list</span>
         <Link to='/'>
-          <div className="button button-v">Return</div>
+          <button className="button button-v">Return</button>
         </Link>
       </div>
         
