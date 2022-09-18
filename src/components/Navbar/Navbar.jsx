@@ -32,7 +32,9 @@ const Navbar = () => {
   return (
     <div className='navbar' >
       <div className='n-logo'>
-        <img src={Logo} alt="Logo"/>
+        <img src={Logo} alt="Logo" style={{
+          transform:'scale(0.7)'
+        }}/>
       </div>
       <div className="n-list">
         <UilAlignJustify onClick={toggleNav}/>
