@@ -1,4 +1,4 @@
-# Introducción [Linkedin](https://www.linkedin.com/in/alexiscampomanes/) [GitHub](https://github.com/Alexis-Campomanes)
+# Introducción  [Linkedin](https://www.linkedin.com/in/alexiscampomanes/) | [GitHub](https://github.com/Alexis-Campomanes)
 
 - HTML
 - CSS
