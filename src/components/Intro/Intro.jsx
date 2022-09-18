@@ -13,7 +13,8 @@ const Intro = () => {
         <span>Welcome! I Am</span>
         <span>Alexis Campomanes</span>
         <span>Frontend developer and Bachelor's degree of geographic engineering</span>
-        <span>Lorem, ipsum dolor deserunt tenetur nisi molestiae quisquam minus, esse similique sapiente necessitatibus fuga? Consequatur?</span>
+        <span>Looking for a company in rapid development, in which I can share my experience, capacity and responsibility, with the ability to solve problems in a competitive, creative environment with clear objectives,willing improve and consolidate professionally.
+          As a medium term goal to be a full stack developer.</span>
       </div>
       <div className="right">
         <div>
