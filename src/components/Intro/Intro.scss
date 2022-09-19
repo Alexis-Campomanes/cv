@@ -141,5 +141,14 @@
 @media screen and (max-width:480px){
   .intro{
     padding: 4.2rem 1rem;
+    .left{
+      >:nth-child(4){
+        font-size: 12pt !important;
+      }
+      .typing-demo{
+        width: 20ch;
+        font-size: 19pt !important;
+      }
+    }
   }
 }
