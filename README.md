@@ -6,7 +6,7 @@
 - JAVASCRIPT
 - REACT JS
 - EMAIL JS
-- iconscout
+- iCONSCOUT
 
 ![](https://i.postimg.cc/fRtPx7CG/Screenshot-33.jpg)
 
